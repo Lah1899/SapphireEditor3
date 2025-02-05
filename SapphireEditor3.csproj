@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>sapphire</AssemblyName>
+    <ApplicationIcon>sapphire.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="sapphire_256.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="sapphire.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="sapphire_256.png" />
+  </ItemGroup>
+
+</Project>
