@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SapphireEditor3"
         mc:Ignorable="d"
-        Title="SapphireEditor 3.1.1" Height="500" Width="800">
+        Title="SapphireEditor 3.2.0" Height="500" Width="800">
     <Grid>
         <ScrollViewer Grid.Row="0" Grid.Column="0" VerticalScrollBarVisibility="Auto">
             <RichTextBox x:Name="rtb" FontSize="14">

@@ -318,7 +318,7 @@ namespace SapphireEditor3
         {
             string fileName = currentFilePath != null ? currentFilePath : "Untitled";
             string editedStatus = isEdited ? " (Edited)" : "";
-            Title = $"{fileName}{editedStatus} - SapphireEditor 3.1.1";
+            Title = $"{fileName}{editedStatus} - SapphireEditor 3.2.0";
         }
     }
 }
